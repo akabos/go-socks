@@ -1,7 +1,12 @@
 SOCKS5 Proxy Package for Go
 ===========================
 
-Documentation: <http://godoc.org/github.com/btcsuite/go-socks/socks>
+Current limitations:
+  - only SOCKS version 5 is supported
+	- GSS-API authentication is not supported
+	- TCP bind and UDP are not supported
+
+See examples dir for usage example.
 
 License
 -------
